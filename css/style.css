@@ -1,0 +1,121 @@
+
+:root {
+    --acme-font: 'Acme', sans-serif;
+    --lora-font: 'Lora', serif;
+    --philosopher-font: 'Philosopher', sans-serif;
+    --teal: #29a3a3;
+    --light-teal: #b3ffff;
+}
+
+header {
+    background-color: var(--teal);
+    padding: 5px 50px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 50px;
+    font-family: var(--acme-font);
+    color: var(--light-teal); 
+}
+
+nav a:link {
+    color: var(--light-teal);
+
+}
+
+nav a:visited {
+    color: var(--light-teal);
+}
+
+nav ul {
+    padding-bottom: 5px;
+    margin: auto 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+aside {
+    font-family: var(--philosopher-font);
+    font-size: 30px;
+    text-align: right;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-right: 3px solid var(--teal);
+    padding-right: 10px;
+    margin-right: 10px;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+article {
+    display: inline;
+    font-family: var(--lora-font);
+    font-size: 14px;
+    margin-right: 40px;
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 18px;
+    flex-grow: 1;
+}
+
+article p {
+    margin: 5px 0;
+}
+
+article ul {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+article li {
+    font-size: 20px;
+}
+
+article a:link {
+    color: var(--teal);
+}
+
+article a:visited {
+    color: var(--teal);
+}
+
+footer {
+    background-color: var(--teal);
+    color: var(--light-teal);
+    font-family: var(--acme-font);
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+.header-image {
+    background: url(../assets/SU-Design-1623463715.jpg) no-repeat center center;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;;
+}
+
+.header-image .header-subtitle {
+    font-size: 32px;
+    font-family: var(--philosopher-font);
+    padding: 10px;
+    background-color: var(--light-teal);
+    color: var(--teal);
+    margin: auto 0;
+    margin-top: 125px;
+    margin-right: 50px;
+}
+
