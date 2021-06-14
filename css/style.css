@@ -105,11 +105,13 @@ footer {
 }
 
 .header-image {
-    background: url(../assets/Header.jpg) repeat center center;
-    height: 200px;
-    width: 100%;
+    background: url(../assets/Header.jpg) no-repeat center center;
+    background-size: cover;
+    background-color: var(--teal);
     display: flex;
     flex-direction: row-reverse;
+    height: 200px;
+
 }
 
 .header-image .header-subtitle {
@@ -118,9 +120,9 @@ footer {
     padding: 10px;
     background-color: var(--light-teal);
     color: var(--teal);
-    margin: auto 0;
-    margin-top: 125px;
     margin-right: 50px;
+    margin-top: 125px;
+    display: flex;
 }
 
 .container {
@@ -156,6 +158,8 @@ img {
     color: var(--light-teal);
     opacity: 70%;
 }
+
+#about-me
 
 #top {
     height: 400px;
