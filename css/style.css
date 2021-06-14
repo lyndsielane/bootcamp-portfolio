@@ -90,6 +90,11 @@ article a:visited {
     color: var(--teal);
 }
 
+article div {
+    border: 4px solid var(--light-teal);
+    width: 100%;
+}
+
 footer {
     background-color: var(--teal);
     color: var(--light-teal);
@@ -99,13 +104,12 @@ footer {
     padding: 5px;
 }
 
-
 .header-image {
-    background: url(../assets/SU-Design-1623463715.jpg) no-repeat center center;
+    background: url(../assets/Header.jpg) repeat center center;
     height: 200px;
     width: 100%;
     display: flex;
-    flex-direction: row-reverse;;
+    flex-direction: row-reverse;
 }
 
 .header-image .header-subtitle {
@@ -119,3 +123,44 @@ footer {
     margin-right: 50px;
 }
 
+.container {
+    width: 100%;
+    padding-right: 30px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+.cell {
+    display: flex;
+    align-items: center;
+    flex: 1 1 auto;
+    border: 6px solid var(--light-teal);
+    box-sizing: content-box;
+    margin: 15px;
+}
+
+.title {
+    background-color: var(--light-teal);
+    color: var(--teal);
+    margin: auto 0;
+}
+
+img {
+    width: 100%;
+    color: var(--light-teal);
+    opacity: 70%;
+}
+
+#top {
+    height: 400px;
+}
+
+#other {
+    height: 200px;
+}
