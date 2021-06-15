@@ -17,6 +17,18 @@ header {
     color: var(--light-teal); 
 }
 
+nav ul {
+    padding-bottom: 5px;
+    margin: auto 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 40px;
+    padding-right: 20px;
+    font-size: 25px;
+}
+
 nav a:link {
     color: var(--light-teal);
 }
@@ -25,21 +37,9 @@ nav a:visited {
     color: var(--light-teal);
 }
 
-nav ul {
-    padding-bottom: 5px;
-    margin: auto 0;
-}
-
-nav li {
-    display: inline;
-    margin-left: 20px;
-    font-size: 25px;
-}
-
 section {
     display: flex;
     flex-direction: row;
-    justify-content: end;
 }
 
 aside {
@@ -47,28 +47,40 @@ aside {
     font-size: 30px;
     text-align: right;
     margin-left: 40px;
-    margin-top: 20px;
+    margin-top: 30px;
     border-right: 3px solid var(--teal);
     padding-right: 10px;
-    margin-right: 10px;
     min-width: 100px;
     max-width: 100px;
 }
 
 article {
     display: inline;
-    font-family: var(--lora-font);
-    font-size: 18px;
     margin-right: 50px;
     margin-top: 20px;
     margin-left: 20px;
-    text-align: justify;
-    line-height: 24px;
     flex-grow: 1;
 }
 
 article p {
-    margin: 10px 0;
+    font-family: var(--lora-font);
+    font-size: 20px;
+    display: flex;
+    float: inline-start;
+    margin-right: 250px;
+    text-align: justify;
+    margin-top: 100px;
+    line-height: 30px;
+}
+
+div h4 {
+    font-family: var(--philosopher-font);
+    font-size: 30px;
+}
+
+div p {
+    font-family: var(--acme-font);
+    font-size: 18px;
 }
 
 article ul {
@@ -103,22 +115,6 @@ footer {
     padding: 10px;
 }
 
-img {
-    width: 100%;
-    color: var(--light-teal);
-    opacity: 70%;
-}
-
-div h4 {
-    font-family: var(--philosopher-font);
-    font-size: 30px;
-}
-
-div p {
-    font-family: var(--acme-font);
-    font-size: 18px;
-}
-
 .header-image {
     background: url(../assets/Header.jpg) no-repeat center center;
     background-size: cover;
@@ -134,17 +130,20 @@ div p {
     padding: 10px;
     background-color: var(--light-teal);
     color: var(--teal);
-    margin-right: 20px;
+    margin-right: 60px;
     margin-top: 125px;
     margin-bottom:20px;
     display: flex;
 }
 
 .self-portrait {
+    float: right;
     display: flex;
-    background-color: black;
-    height: 200px;
-    width: 130px;
+    background-color: grey;
+    height: 300px;
+    width: 169px;
+    background-size: cover;
+    margin-right: 5px;;
 }
 
 .container {
@@ -209,7 +208,6 @@ div p {
     left: 40px;
     background-color: var(--light-teal);
     color: var(--teal);
-    padding: 20px;
     padding: 20px;
 }
 
