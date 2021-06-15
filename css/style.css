@@ -134,10 +134,17 @@ div p {
     padding: 10px;
     background-color: var(--light-teal);
     color: var(--teal);
-    margin-right: 50px;
+    margin-right: 20px;
     margin-top: 125px;
     margin-bottom:20px;
     display: flex;
+}
+
+.self-portrait {
+    display: flex;
+    background-color: black;
+    height: 200px;
+    width: 130px;
 }
 
 .container {
@@ -161,7 +168,7 @@ div p {
 }
 
 #project-featured {
-    background: url(../assets/Project\ Large.jpg), linear-gradient(rgba(0, 255, 250, 0.5),rgba(0, 255, 250, 0.5));
+    background: url(../assets/Project\ Large.jpg), linear-gradient(rgba(179, 255, 255, 0.3),rgba(179, 255, 255, 0.3));
     background-blend-mode: overlay;
     background-size: cover;
     height: 400px;
@@ -169,28 +176,28 @@ div p {
 }
 
 #project-one {
-    background: url(../assets/Project\ 1.jpg), linear-gradient(rgba(0, 255, 250, 0.3),rgba(0, 255, 250, 0.3));
+    background: url(../assets/Project\ 1.jpg), linear-gradient(rgba(179, 255, 255, 0.5),rgba(179, 255, 255, 0.5));
     background-blend-mode: overlay;
     background-size: cover;
     height: 200px;
 }
 
 #project-two {
-    background: url(../assets/Project\ 2.jpg), linear-gradient(rgba(0, 255, 250, 0.3),rgba(0, 255, 250, 0.3));
+    background: url(../assets/Project\ 2.jpg), linear-gradient(rgba(179, 255, 255, 0.5),rgba(179, 255, 255, 0.5));
     background-blend-mode: overlay;
     background-size: cover;
     height: 200px;
 }
 
 #project-three {
-    background: url(../assets/Project\ 3.jpg), linear-gradient(rgba(0, 255, 250, 0.3),rgba(0, 255, 250, 0.3));
+    background: url(../assets/Project\ 3.jpg), linear-gradient(rgba(179, 255, 255, 0.5),rgba(179, 255, 255, 0.5));
     background-blend-mode: overlay;
     background-size: cover;
     height: 200px;
 }
 
 #project-four {
-    background: url(../assets/Project\ 4.jpg), linear-gradient(rgba(0, 255, 250, 0.3),rgba(0, 255, 250, 0.3));
+    background: url(../assets/Project\ 4.jpg), linear-gradient(rgba(179, 255, 255, 0.5),rgba(179, 255, 255, 0.5));
     background-blend-mode: overlay;
     background-size: cover;
     height: 200px;
