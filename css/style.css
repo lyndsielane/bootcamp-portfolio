@@ -56,8 +56,9 @@ aside {
 
 article {
     display: inline;
+    align-content: center;
     margin-right: 50px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 20px;
     flex-grow: 1;
 }
@@ -66,8 +67,9 @@ article p {
     font-family: var(--lora-font);
     font-size: 20px;
     display: flex;
-    float: inline-start;
+    float: inline;
     margin-right: 250px;
+    margin-top: 40px;
     text-align: justify;
     line-height: 30px;
 }
