@@ -5,23 +5,9 @@
     --philosopher-font: 'Philosopher', sans-serif;
     --teal: #46a8af;
     --red: #9f221f;
-}
-
-section {
-    display: flex;
-    flex-direction: row;
-}
-
-aside {
-    font-family: var(--philosopher-font);
-    font-size: 30px;
-    text-align: right;
-    margin-left: 40px;
-    margin-top: 30px;
-    border-right: 3px solid var(--teal);
-    padding-right: 10px;
-    min-width: 100px;
-    max-width: 100px;
+    --light-teal: #a8fcfc;
+    --light-red: #ed3933;
+    --grey: #162d2f;
 }
 
 article {
@@ -79,7 +65,7 @@ article div {
 
 footer {
     background-color: var(--teal);
-    color: var(--light-teal);
+    color: var(--red);
     font-family: var(--acme-font);
     text-align: center;
     font-size: 30px;
@@ -91,16 +77,19 @@ footer {
     background-size: cover;
 }
 
-.header-image .header-subtitle {
-    font-size: 32px;
+.title {
+    font-size: 65px;
     font-family: var(--philosopher-font);
-    padding: 10px;
-    background-color: var(--light-teal);
     color: var(--teal);
-    margin-right: 60px;
-    margin-top: 125px;
-    margin-bottom:20px;
-    display: flex;
+    margin-top: 350px;
+}
+
+.subtitle {
+    font-size: 50px;
+    font-family: var(--acme-font);
+    color: var(--teal);
+    margin-left: 1500px;
+    margin-top: 350px;
 }
 
 .self-portrait {
