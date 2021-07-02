@@ -3,38 +3,8 @@
     --acme-font: 'Acme', sans-serif;
     --lora-font: 'Lora', serif;
     --philosopher-font: 'Philosopher', sans-serif;
-    --teal: #29a3a3;
-    --light-teal: #b3ffff;
-}
-
-header {
-    background-color: var(--teal);
-    padding: 5px 50px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 50px;
-    font-family: var(--acme-font);
-    color: var(--light-teal); 
-}
-
-nav ul {
-    padding-bottom: 5px;
-    margin: auto 0;
-}
-
-nav li {
-    display: inline;
-    margin-left: 40px;
-    padding-right: 20px;
-    font-size: 25px;
-}
-
-nav a:link {
-    color: var(--light-teal);
-}
-
-nav a:visited {
-    color: var(--light-teal);
+    --teal: #46a8af;
+    --red: #9f221f;
 }
 
 section {
@@ -116,13 +86,9 @@ footer {
     padding: 10px;
 }
 
-.header-image {
-    background: url(../assets/Header.jpg) no-repeat center center;
+#hero {
+    background: url(../assets/Portfolio\ Header.jpg) no-repeat center center;
     background-size: cover;
-    height: 200px;
-    background-color: var(--teal);
-    display: flex;
-    flex-direction: row-reverse;  
 }
 
 .header-image .header-subtitle {
