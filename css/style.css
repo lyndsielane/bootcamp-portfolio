@@ -8,19 +8,20 @@
     --light-teal: #a8fcfc;
     --light-red: #ed3933;
     --grey: #162d2f;
+    background-color: lightgray;
 }
 
-article {
+/*#about-me {
     display: inline;
     align-content: center;
     margin-right: 50px;
     margin-top: 30px;
     margin-left: 20px;
     flex-grow: 1;
-}
+}*/
 
-article p {
-    font-family: var(--lora-font);
+div p {
+   font-family: var(--lora-font);
     font-size: 20px;
     display: flex;
     float: inline;
@@ -33,11 +34,6 @@ article p {
 div h4 {
     font-family: var(--philosopher-font);
     font-size: 30px;
-}
-
-div p {
-    font-family: var(--acme-font);
-    font-size: 18px;
 }
 
 article ul {
@@ -94,6 +90,8 @@ footer {
 
 .navbar-menu {
     background-color: var(--red);
+    display: flex;
+    justify-content: space-between;
 }
 
 .self-portrait {
