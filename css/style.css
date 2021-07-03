@@ -11,7 +11,7 @@
     background-color: lightgray;
 }
 
-div p {
+.about-me-text {
    font-family: var(--lora-font);
     font-size: 20px;
     display: flex;
@@ -22,11 +22,6 @@ div p {
     line-height: 30px;
 }
 
-div h4 {
-    font-family: var(--philosopher-font);
-    font-size: 30px;
-}
-
 footer {
     background-color: var(--teal);
     color: var(--red);
@@ -34,6 +29,14 @@ footer {
     text-align: center;
     font-size: 30px;
     margin-top: 50px;
+}
+
+.navbar-item {
+    color: var(--light-teal);
+    font-weight: bold;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #hero {
@@ -46,6 +49,7 @@ footer {
     font-family: var(--philosopher-font);
     color: var(--teal);
     margin-top: 350px;
+    margin-right: 500px;
 }
 
 .subtitle {
@@ -68,22 +72,10 @@ footer {
     width: 169px;
 }
 
-.cards {
-    margin-top: 30px;
-    width: 100%;
-}
-
 .card {
     flex: 1 1 auto;
-    border: 6px solid var(--light-teal);
+    border: 6px solid var(--red);
     margin-top: 70px;
-}
-
-#project-featured {
-    background: url(../assets/Project\ Large.jpg), linear-gradient(rgba(179, 255, 255, 0.3),rgba(179, 255, 255, 0.3));
-    background-blend-mode: overlay;
-    background-size: cover;
-    height: 400px;
 }
 
 #project-one {
@@ -102,13 +94,6 @@ footer {
 
 #project-three {
     background: url(../assets/Project\ 3.jpg), linear-gradient(rgba(179, 255, 255, 0.5),rgba(179, 255, 255, 0.5));
-    background-blend-mode: overlay;
-    background-size: cover;
-    height: 400px;
-}
-
-#project-four {
-    background: url(../assets/Project\ 4.jpg), linear-gradient(rgba(179, 255, 255, 0.5),rgba(179, 255, 255, 0.5));
     background-blend-mode: overlay;
     background-size: cover;
     height: 400px;
