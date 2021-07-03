@@ -79,21 +79,21 @@ footer {
 }
 
 #project-one {
-    background: url(../assets/Project\ 1.jpg), linear-gradient(rgba(179, 255, 255, 0.5),rgba(179, 255, 255, 0.5));
+    background: url(../assets/Project\ 1.jpg), linear-gradient(rgba(179, 255, 255, 0.5),rgba(237, 57, 51, 0.5));
     background-blend-mode: overlay;
     background-size: cover;
     height: 400px;
 }
 
 #project-two {
-    background: url(../assets/Project\ 2.jpg), linear-gradient(rgba(179, 255, 255, 0.5),rgba(179, 255, 255, 0.5));
+    background: url(../assets/Project\ 2.jpg), linear-gradient(rgba(179, 255, 255, 0.5),rgba(237, 57, 51, 0.5));
     background-blend-mode: overlay;
     background-size: cover;
     height: 400px;
 }
 
 #project-three {
-    background: url(../assets/Project\ 3.jpg), linear-gradient(rgba(179, 255, 255, 0.5),rgba(179, 255, 255, 0.5));
+    background: url(../assets/Project\ 3.jpg), linear-gradient(rgba(179, 255, 255, 0.5),rgba(237, 57, 51, 0.5));
     background-blend-mode: overlay;
     background-size: cover;
     height: 400px;
@@ -104,12 +104,8 @@ footer {
     bottom: 40px;
     left: 40px;
     background-color: var(--light-teal);
-    color: var(--teal);
+    color: var(--grey);
     padding: 20px;
-}
-
-#project-featured:hover {
-    background-blend-mode: normal;
 }
 
 #project-one:hover {
@@ -121,9 +117,5 @@ footer {
 }
 
 #project-three:hover {
-    background-blend-mode: normal;
-}
-
-#project-four:hover {
     background-blend-mode: normal;
 }
