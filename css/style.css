@@ -69,7 +69,8 @@ footer {
 .self-portrait {
     float: right;
     height: 300px;
-    width: 169px;
+    width: 172px;
+    border: 3px solid var(--red);
 }
 
 .card {
