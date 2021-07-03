@@ -92,6 +92,10 @@ footer {
     margin-top: 350px;
 }
 
+.navbar-menu {
+    background-color: var(--red);
+}
+
 .self-portrait {
     float: right;
     display: flex;
