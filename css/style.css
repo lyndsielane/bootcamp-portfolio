@@ -74,30 +74,30 @@ footer {
 }
 
 .card {
-    flex: 1 1 auto;
-    border: 6px solid var(--red);
+    border: 8px solid var(--red);
     margin-top: 70px;
+    height: 400px;
 }
 
 #project-one {
     background: url(../assets/FidoFriendly.png), linear-gradient(rgba(179, 255, 255, 0.5),rgba(237, 57, 51, 0.5));
     background-blend-mode: overlay;
     background-size: cover;
-    height: 400px;
+    height: 100%;
 }
 
 #project-two {
     background: url(../assets/127.0.0.1_5500_index.html_\ \(1\).png), linear-gradient(rgba(179, 255, 255, 0.5),rgba(237, 57, 51, 0.5));
     background-blend-mode: overlay;
     background-size: cover;
-    height: 400px;
+    height: 100%;
 }
 
 #project-three {
     background: url(../assets/127.0.0.1_5500_index.html\ \(1\).png), linear-gradient(rgba(179, 255, 255, 0.5),rgba(237, 57, 51, 0.5));
     background-blend-mode: overlay;
     background-size: cover;
-    height: 400px;
+    height: 100%;
 }
 
 #project-text {
