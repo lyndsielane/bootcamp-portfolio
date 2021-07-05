@@ -11,39 +11,6 @@
     background-color: lightgray;
 }
 
-.about-me-text {
-   font-family: var(--lora-font);
-    font-size: 20px;
-    display: flex;
-    float: inline;
-    margin-right: 250px;
-    margin-top: 40px;
-    text-align: justify;
-    line-height: 30px;
-}
-
-footer {
-    background-color: var(--teal);
-    color: var(--red);
-    font-family: var(--acme-font);
-    text-align: center;
-    font-size: 30px;
-    margin-top: 50px;
-}
-
-.navbar-item {
-    color: var(--light-teal);
-    font-weight: bold;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#hero {
-    background: url(../assets/Portfolio\ Header.jpg) no-repeat center center;
-    background-size: cover;
-}
-
 .title {
     font-size: 65px;
     font-family: var(--philosopher-font);
@@ -66,6 +33,25 @@ footer {
     justify-content: space-between;
 }
 
+.about-me-text {
+   font-family: var(--lora-font);
+    font-size: 20px;
+    display: flex;
+    float: inline;
+    margin-right: 250px;
+    margin-top: 40px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.navbar-item {
+    color: var(--light-teal);
+    font-weight: bold;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .self-portrait {
     float: right;
     height: 300px;
@@ -73,50 +59,21 @@ footer {
     border: 3px solid var(--red);
 }
 
-.card {
-    border: 8px solid var(--red);
-    margin-top: 70px;
-    height: 400px;
+.divider {
+    background-color: var(--red);
+    height: 5px;
 }
 
-#project-one {
-    background: url(../assets/FidoFriendly.png), linear-gradient(rgba(179, 255, 255, 0.5),rgba(237, 57, 51, 0.5));
-    background-blend-mode: overlay;
+footer {
+    background-color: var(--teal);
+    color: var(--red);
+    font-family: var(--acme-font);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+#hero {
+    background: url(../assets/Portfolio\ Header.jpg) no-repeat center center;
     background-size: cover;
-    height: 100%;
-}
-
-#project-two {
-    background: url(../assets/127.0.0.1_5500_index.html_\ \(1\).png), linear-gradient(rgba(179, 255, 255, 0.5),rgba(237, 57, 51, 0.5));
-    background-blend-mode: overlay;
-    background-size: cover;
-    height: 100%;
-}
-
-#project-three {
-    background: url(../assets/127.0.0.1_5500_index.html\ \(1\).png), linear-gradient(rgba(179, 255, 255, 0.5),rgba(237, 57, 51, 0.5));
-    background-blend-mode: overlay;
-    background-size: cover;
-    height: 100%;
-}
-
-#project-text {
-    position: absolute;
-    bottom: 40px;
-    left: 40px;
-    background-color: var(--light-teal);
-    color: var(--grey);
-    padding: 20px;
-}
-
-#project-one:hover {
-    background-blend-mode: normal;
-}
-
-#project-two:hover {
-    background-blend-mode: normal;
-}
-
-#project-three:hover {
-    background-blend-mode: normal;
 }
