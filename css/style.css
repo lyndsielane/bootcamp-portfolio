@@ -80,21 +80,21 @@ footer {
 }
 
 #project-one {
-    background: url(../assets/Project\ 1.jpg), linear-gradient(rgba(179, 255, 255, 0.5),rgba(237, 57, 51, 0.5));
+    background: url(../assets/FidoFriendly.png), linear-gradient(rgba(179, 255, 255, 0.5),rgba(237, 57, 51, 0.5));
     background-blend-mode: overlay;
     background-size: cover;
     height: 400px;
 }
 
 #project-two {
-    background: url(../assets/Project\ 2.jpg), linear-gradient(rgba(179, 255, 255, 0.5),rgba(237, 57, 51, 0.5));
+    background: url(../assets/127.0.0.1_5500_index.html_\ \(1\).png), linear-gradient(rgba(179, 255, 255, 0.5),rgba(237, 57, 51, 0.5));
     background-blend-mode: overlay;
     background-size: cover;
     height: 400px;
 }
 
 #project-three {
-    background: url(../assets/Project\ 3.jpg), linear-gradient(rgba(179, 255, 255, 0.5),rgba(237, 57, 51, 0.5));
+    background: url(../assets/127.0.0.1_5500_index.html\ \(1\).png), linear-gradient(rgba(179, 255, 255, 0.5),rgba(237, 57, 51, 0.5));
     background-blend-mode: overlay;
     background-size: cover;
     height: 400px;
