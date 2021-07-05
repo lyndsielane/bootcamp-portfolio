@@ -41,7 +41,7 @@
     display: flex;
     justify-content: space-between;
 }
-
+/* Index.html styling*/
 .about-me-text {
    font-family: var(--lora-font);
     font-size: 20px;
@@ -95,4 +95,23 @@ footer {
     text-align: center;
     font-size: 30px;
     margin-top: 50px;
+}
+
+/*fido-friendly.html styling*/
+
+.container {
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.fido-preview {
+    height: 800px;
+}
+
+.fido-details {
+    width: 40%;
+    font-family: var(--acme-font);
+    font-size: 20px;
+    text-align: justify;
 }
