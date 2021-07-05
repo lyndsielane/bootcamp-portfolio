@@ -64,6 +64,18 @@
     height: 5px;
 }
 
+.row {
+    display: flex;
+}
+
+.card {
+    min-height: 580px;
+}
+
+.card-image {
+    min-height: 426px;
+}
+
 footer {
     background-color: var(--teal);
     color: var(--red);
