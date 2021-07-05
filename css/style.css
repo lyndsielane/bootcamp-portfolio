@@ -11,20 +11,29 @@
     background-color: lightgray;
 }
 
+#hero {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-body {
+    background: url(../assets/Portfolio\ Header.jpg) no-repeat center center;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .title {
-    font-size: 65px;
     font-family: var(--philosopher-font);
-    color: var(--teal);
-    margin-top: 350px;
-    margin-right: 500px;
+    font-size: 65px;
 }
 
 .subtitle {
-    font-size: 55px;
     font-family: var(--acme-font);
-    color: var(--teal);
-    margin-left: 950px;
-    margin-top: 350px;
+    font-size: 50px;
 }
 
 .navbar-menu {
@@ -70,10 +79,16 @@
 
 .card {
     min-height: 580px;
+    border: 5px solid var(--teal);
+    border-radius: 8px;
 }
 
 .card-image {
     min-height: 426px;
+}
+
+.card-title {
+    color: var(--teal);
 }
 
 footer {
@@ -83,9 +98,4 @@ footer {
     text-align: center;
     font-size: 30px;
     margin-top: 50px;
-}
-
-#hero {
-    background: url(../assets/Portfolio\ Header.jpg) no-repeat center center;
-    background-size: cover;
 }
