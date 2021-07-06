@@ -106,10 +106,6 @@ footer {
     padding-bottom: 50px;
 }
 
-.project-preview {
-    height: 800px;
-}
-
 .project-details {
     width: 40%;
     font-family: var(--acme-font);
@@ -132,4 +128,9 @@ h3 {
     height: 3px;
     background-color: var(--teal);
     margin-top: 0;
+}
+
+.weather-preview {
+    width: 800px;
+    padding-right: 20px;
 }
