@@ -29,11 +29,13 @@
 .title {
     font-family: var(--philosopher-font);
     font-size: 65px;
+    color: white;
 }
 
 .subtitle {
     font-family: var(--acme-font);
     font-size: 50px;
+    color: white;
 }
 
 .navbar-menu {
