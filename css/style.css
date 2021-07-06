@@ -30,6 +30,7 @@
     font-family: var(--philosopher-font);
     font-size: 65px;
     color: white;
+    margin-top: 8%;
 }
 
 .subtitle {
