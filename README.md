@@ -1,14 +1,14 @@
-## bootcamp-portfolio
+## lyndsie-lane-portfolio
 
-* The site is branded with two main colors and three fonts. All photos were chosen to closely match the branding.
-* The header contains a nav bar, background photo, self-portrait, title, and subtitle.
-* The nav bar links to the appropriate section within the website. The resume tab is currently a placeholder that will open a PDF once my resume is up to date.
-* The About Me section is a short introduction to my experience and what I am looking for once my job search begins.
-* The Work section contains photos with links to projects. Currently all but two are placeholders. The opaque overlay on these sections disappears upon hover. The photos are currently stock photos used as fillers, once final projects are in place they will be replaced with photos to match the assigned project.
-* The Contact Me section contains my phone number, email, Github, and LinkedIn. Each of these is a link to the appropriate place.
+* The site is branded with two main colors and two fonts. The hero header was chosen for it's match to Lyndsie's style and the color scheme of the portfolio.
+* The header is followed by a contact bar with clickable links for several forms of contact for Lyndsie. These links open in new pages.
+* Underneath the header and contact bar is a quick introduction to me. There is a short bio and portrait.
+* Just below the intro are feature cards for projects. Each card has a screenshot of the application, a title, a blurb about the app, and a more details link.
+* The more details link opens a new page with full details of the project. These pages contain a larger screenshot of the application, a description of why a user would want to use the app, and developer details for the app. There is a link to the deployed site as well as a link to the Github repo.
+* The style of all pages is the same. The header, contact bar, and footer are on all pages.
 * The site adjusts and shrinks for smaller screen sizes.
 
     The site is deployed at https://lyndsielane.github.io/lyndsie-lane-portfolio/
 
-![PagePreview](https://github.com/lyndsielane/lyndsie-lane-portfolio/blob/main/assets/lyndsielane.github.io_lyndsie-lane-portfolio_.png?raw=true)
+![PagePreview](hhttps://github.com/lyndsielane/lyndsie-lane-portfolio/blob/main/assets/portfolio-screenshot.png?raw=true)
 
