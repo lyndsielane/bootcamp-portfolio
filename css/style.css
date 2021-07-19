@@ -49,21 +49,10 @@
 
 .divider {
     background-color: var(--red);
-    height: 5px;
 }
 
-.row {
-    display: flex;
-}
-
-.card {
-    min-height: 580px;
-    border: 5px solid var(--teal);
-    border-radius: 8px;
-}
-
-.card-image {
-    height: 426px;
+.card-img {
+    max-height: min-content;
 }
 
 footer {
