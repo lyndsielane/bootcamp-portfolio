@@ -39,22 +39,12 @@
     color: white;
 }
 /* Index.html styling*/
-#about-me-text {
-   font-family: var(--lora-font);
+#about-me {
+    font-family: var(--lora-font);
     font-size: 20px;
-    display: flex;
-    float: inline;
-    margin-right: 250px;
     margin-top: 40px;
     text-align: justify;
     line-height: 30px;
-}
-
-#self-portrait {
-    margin-top: 25px;
-    height: 350px;
-    width: 200px;
-    border: 3px solid var(--red);
 }
 
 .divider {
