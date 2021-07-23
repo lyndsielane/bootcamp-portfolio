@@ -9,7 +9,7 @@ body {
     --outer-space: #293f42;
     --viking: #5cd1d8;
     --burnt-umber: #822d22;
-    --ming: #3d848a;
+    --meng: #3d848a;
     --boston-blue: #3e9fa9;
     --humming-bird: #bef6f6;
     --aubergine: #430d09;
@@ -44,14 +44,14 @@ body {
     color: var(--persian-red);
     text-shadow: 2px 1px var(--humming-bird);
     text-decoration: none;
-    font-family: Acme;
-    font-size: 2.15em;
+    font-family: 'Acme', sans-serif;
+    font-size: 2.35em;
     letter-spacing: 1px;
     transition: .25s ease-in-out;
   }
   
   nav a:hover {
-    color: rgb(220, 120, 0);
+    color: var(--burnt-umber);
   }
   
   .nav-bg {
@@ -62,7 +62,7 @@ body {
     width: 100%;
     height: 100%;
     z-index: -1;
-    background: rgb(50, 50, 50);
+    background: var(--ming);
     transition: .45s ease-in-out;
   }
   
@@ -78,7 +78,7 @@ body {
   
   h1 {
     text-align: center;
-    font-family: Ubuntu;
+    font-family: 'Philosopher', sans-serif;
     letter-spacing: 1px;
   }
   
