@@ -1,103 +1,119 @@
-
-:root {
-    --acme-font: 'Acme', sans-serif;
-    --lora-font: 'Lora', serif;
-    --philosopher-font: 'Philosopher', sans-serif;
-    --teal: #46a8af;
-    --red: #9f221f;
-    --light-teal: #a8fcfc;
-    --light-red: #ed3933;
-    --grey: #162d2f;
-    background-color: lightgray;
-}
-
-#hero {
+body {
     margin: 0;
     padding: 0;
-}
-
-.hero-body {
-    background: url(../assets/Portfolio\ Header.jpg) no-repeat center center;
-}
-
-.hero-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.title {
-    font-family: var(--philosopher-font);
-    font-size: 65px;
-    color: white;
-    margin-top: 8%;
-}
-
-.subtitle {
-    font-family: var(--acme-font);
-    font-size: 50px;
-    color: white;
-}
-/* Index.html styling*/
-#about-me {
-    font-family: var(--lora-font);
-    font-size: 20px;
-    margin-top: 40px;
-    text-align: justify;
-    line-height: 30px;
-}
-
-.divider {
-    background-color: var(--red);
-}
-
-.card-img {
-    max-height: min-content;
-}
-
-footer {
-    background-color: var(--teal);
-    color: var(--red);
-    font-family: var(--acme-font);
+    background: var(--outer-space);
+    color: var(--humming-bird);
+    font-family: 'Acme', sans-serif;
+    font-family: 'Philosopher', sans-serif;
+    --persian-red: #c83f29;
+    --outer-space: #293f42;
+    --viking: #5cd1d8;
+    --burnt-umber: #822d22;
+    --ming: #3d848a;
+    --boston-blue: #3e9fa9;
+    --humming-bird: #bef6f6;
+    --aubergine: #430d09;
+    --ming: #336b74;
+    --keppel: #3eaca4;
+  }
+  
+  nav {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: .3em 3em;
+    float: right;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0;
+    padding: .2em .7em;
+  }
+  
+  nav a {
+    width: 100%;
+    height: 100%;
+    color: var(--persian-red);
+    text-shadow: 2px 1px var(--humming-bird);
+    text-decoration: none;
+    font-family: Acme;
+    font-size: 2.15em;
+    letter-spacing: 1px;
+    transition: .25s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: rgb(220, 120, 0);
+  }
+  
+  .nav-bg {
+    content: '';
+    position: absolute;
+    display: block;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: rgb(50, 50, 50);
+    transition: .45s ease-in-out;
+  }
+  
+  .bg-hidden {
+    top: -100%;
+    opacity: 0;
+  }
+  
+  .bg-visible {
+    top: 0;
+    opacity: 1;
+  }
+  
+  h1 {
     text-align: center;
-    font-size: 30px;
-    margin-top: 50px;
-}
-
-/*fido-friendly.html styling*/
-
-#project-container {
-    display: flex;
-    padding-top: 50px;
-    justify-content: space-between;
-    padding-bottom: 50px;
-}
-
-.project-details {
-    width: 40%;
-    font-family: var(--acme-font);
-    font-size: 20px;
-    text-align: justify;
-}
-
-h3 {
-    text-align: center;
-    font-family: var(--philosopher-font);
-    font-size: 30px;
-}
-
-.project-divider {
-    height: 3px;
-    background-color: var(--teal);
-}
-
-.top-project-divider {
-    height: 3px;
-    background-color: var(--teal);
-    margin-top: 0;
-}
-
-.project-preview {
-    width: 800px;
-    padding-right: 20px;
-}
+    font-family: Ubuntu;
+    letter-spacing: 1px;
+  }
+  
+  .hero {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: rgb(50, 50, 50);
+    background: url(../assets/Photos/bigstock--140791445.jpg) no-repeat 50% 50% fixed;
+    background-size: 130%;
+    overflow: hidden;
+  }
+  
+  .hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    padding: .3em;
+    font-size: 3em;
+    font-weight: lighter;
+  }
+  
+  .content-wrapper {
+    width: 80%;
+    height: 3000px;
+    padding: 1em 10%;
+  }
+  
+  .content-wrapper h1 {
+    margin: 0;
+    color: rgb(220, 120, 0);
+  }
+  
+  .content-wrapper p {
+    font-family: "Open Sans";
+    text-indent: 1.5em;
+  }
