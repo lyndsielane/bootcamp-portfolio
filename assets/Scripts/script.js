@@ -55,8 +55,8 @@ colors = {
   })
   
  document.querySelectorAll(".skillicons li i").forEach((item,index) => {
-    (function(counter){
-      setTimeOut(function(){
+    (function(counter) {
+      setTimeOut(function() {
         item.style.color = colors[item.className.substr(7, item.className.length)]
       },
       100*counter);
