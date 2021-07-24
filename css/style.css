@@ -161,17 +161,33 @@ nav a:hover {
 
 .skillset {
     background-color: var(--aubergine);
+    padding: 10px;
+    transform: skewX(-15deg);
+}
+
+.skills {
+    font-family: Philosopher;
+    font-size: 30px;
+    text-decoration: underline dotted var(--humming-bird);
+    letter-spacing: 0.1em;
+    text-align: center;
+    transform: skewX(15deg);
 }
 
 .skillicons {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     list-style: none;
     color: #868e96;
+    display: flex;
+    justify-content: space-around;
+    transform: skewX(15deg);
 }
   
 .skillicons li {
     cursor:pointer;
     display: inline-block;
+    position: relative;
+ }
 }
 
 @media only screen and (max-width: 1000px) {
