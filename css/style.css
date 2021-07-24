@@ -159,13 +159,32 @@ nav a:hover {
     font-family: acme;
 }
 
+.skillset {
+    background-color: var(--aubergine);
+}
+
+.skillicons {
+    font-size: 3.5rem;
+    list-style: none;
+    color: #868e96;
+}
+  
+.skillicons li {
+    cursor:pointer;
+    display: inline-block;
+}
+
 @media only screen and (max-width: 1000px) {
     .logo {
-        width: 30px;
+        width: 40px;
     }
     .intro-info img {
-        height: 10rem;
-        width: 6rem;
+        height: 9rem;
+        width: 5rem;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .intro-info .lead {
@@ -176,13 +195,19 @@ nav a:hover {
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
+
+    .lead p {
+        font-size: 14px;
+        font-family: acme;
+    }
+      
+    .hero {
+        background: url(../assets/Photos/bigstock--140791445.jpg) no-repeat fixed;
+        overflow: hidden;
+    }
+    
 }
 
-.lead p {
-    text-align: left;
-    font-size: 16px;
-    font-family: acme;
-}
 
 @media only screen and (max-width: 879px) {
     .nav-ul {
@@ -204,8 +229,12 @@ nav a:hover {
     }
 
     .intro-info img {
-        height: 5rem;
+        height: 7rem;
         width: 3rem;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .intro-info .lead {
@@ -218,9 +247,13 @@ nav a:hover {
     }
 
     .lead p {
-        text-align: left;
-        font-size: 16px;
+        font-size: 12px;
         font-family: acme;
+    }
+
+    .hero {
+        background: url(../assets/Photos/bigstock--140791445.jpg) no-repeat fixed;
+        overflow: hidden;
     }
 }
 

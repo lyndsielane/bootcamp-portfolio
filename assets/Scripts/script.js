@@ -22,3 +22,43 @@ $(document).ready(function() {
  hamburger.addEventListener('click', () => {
     navUl.classList.toggle('show');
  });
+
+colors = {
+    html5: "#F16529",
+    "css3-alt": "#2199F8",
+    "js-square": "#FFE270",
+    angular: "#DC0230",
+    react: "#61DBFB",
+    "node-js": "#80BD01",
+    sass: "#CF649A",
+    less: "#244A7A",
+    wordpress: "#20759B",
+    gulp: "#DB4446",
+    grunt: "#F4A419",
+    npm: "#C53635",
+    gem: "#671110",
+    'github-square': 'black',
+  };
+  
+  document.querySelectorAll(".skillicons li i").forEach((item,index) => {
+    item.style.color = colors[item.className.substr(7, item.className.length)]})
+                             
+  document.addEventListener("click",() => {
+    animateSkills = anime({
+    targets: ".skillicons li",
+    translateY: [70, 0],
+    opacity: [0, 1],
+    autoplay: true,
+    duration: 1500,
+    delay: anime.stagger(600)
+    })
+  })
+  
+  document.querySelectorAll(".skillicons li i").forEach((item,index) => {
+    (function(counter){
+      setTimeOut(function(){
+        item.style.color = colors[item.className.substr(7, item.className.length)]
+      },
+      100*counter);
+    })(index);
+  });
