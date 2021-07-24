@@ -139,14 +139,9 @@ nav a:hover {
 }
 
 #about {
-	padding-top: 5rem;
-	padding-bottom: 5rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 }
-
-#about .section-intro {
-	margin-bottom: 3rem;
-}
-
 
 .intro-info img {
 	height: 16rem;
@@ -154,12 +149,39 @@ nav a:hover {
 	border-radius: 50%;
 	float: left;
     margin-right: 3em;
+    border: 3px solid var(--boston-blue);
 }
 
 .lead p {
     padding-top: 15px;
 	text-align: justify;
     font-size: 20px;
+    font-family: acme;
+}
+
+@media only screen and (max-width: 1000px) {
+    .logo {
+        width: 30px;
+    }
+    .intro-info img {
+        height: 10rem;
+        width: 6rem;
+    }
+
+    .intro-info .lead {
+        padding-left: 1rem;
+    }
+
+    #about {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+.lead p {
+    text-align: left;
+    font-size: 16px;
+    font-family: acme;
 }
 
 @media only screen and (max-width: 879px) {
@@ -182,12 +204,23 @@ nav a:hover {
     }
 
     .intro-info img {
-        height: 7.8rem;
-        width: 7.8rem;
+        height: 5rem;
+        width: 3rem;
     }
 
     .intro-info .lead {
-        padding-left: 11rem;
+        padding-left: 3rem;
+    }
+
+    #about {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .lead p {
+        text-align: left;
+        font-size: 16px;
+        font-family: acme;
     }
 }
 
