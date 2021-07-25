@@ -132,7 +132,7 @@ nav a:hover {
 
 .content-wrapper {
     width: 80%;
-    height: 3300px;
+    height: 2800px;
     padding: 1em 10%;
 }
 
@@ -400,6 +400,10 @@ nav a:hover {
         
     .cards_item {
         width: 50%;
+    }
+
+    .content-wrapper {
+        height: 3200px;
     }
     
 }
