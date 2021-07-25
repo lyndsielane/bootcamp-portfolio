@@ -132,7 +132,7 @@ nav a:hover {
 
 .content-wrapper {
     width: 80%;
-    height: 2700px;
+    height: 3300px;
     padding: 1em 10%;
 }
 
@@ -318,7 +318,9 @@ nav a:hover {
 .footer {
     width:100%;
     height:200px;
-    position: relative;
+    position: fixed;
+    bottom: 0;
+    left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -326,6 +328,31 @@ nav a:hover {
     font-family: 'Philosopher', sans-serif;
     font-size: 34px;
     text-shadow: 4px 4px var(--persian-red);
+}
+
+@media only screen and (max-width: 3180px) {
+    .footer {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 2100px) {
+    .logo {
+        width: 50px;
+    }
+    .intro-info img {
+        height: 12rem;
+        width: 8rem;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero {
+        background: url(../assets/Photos/bigstock--140791445.jpg) no-repeat fixed;
+        overflow: hidden;
+    }
 }
 
 
@@ -371,7 +398,6 @@ nav a:hover {
     
 }
 
-
 @media only screen and (max-width: 879px) {
     .nav-ul {
         display: none;
@@ -392,8 +418,8 @@ nav a:hover {
     }
 
     .intro-info img {
-        height: 7rem;
-        width: 3rem;
+        height: 8rem;
+        width: 5rem;
         float: none;
         display: block;
         margin-left: auto;
