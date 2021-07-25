@@ -169,7 +169,7 @@ nav a:hover {
 
 .skills {
     font-family: Philosopher;
-    font-size: 30px;
+    font-size: 35px;
     text-decoration: underline dotted var(--humming-bird);
     letter-spacing: 0.1em;
     text-align: center;
@@ -191,14 +191,17 @@ nav a:hover {
     position: relative;
 }
 
-.main{
+.main {
     max-width: 1200px;
     margin: auto;
 }
 
 .main h1 {
-    font-size: 32px;
+    font-size: 35px;
+    color: var(--humming-bird);
     text-align: center;
+    text-decoration: underline dotted var(--burnt-umber);
+    margin-top: 20px;
 }
 
 .main img {
@@ -208,7 +211,7 @@ nav a:hover {
 }
 
 .btn {
-    color: #ffffff;
+    color: #2d100c;
     padding: 0.8rem;
     font-size: 14px;
     text-transform: uppercase;
@@ -217,12 +220,12 @@ nav a:hover {
     display: block;
     width: 100%;
     cursor: pointer;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    background: transparent;
+    border: 1px solid rgba(100,130,34,1);
+    background:transparent;
 }
   
 .btn:hover {
-    background-color: rgba(255, 255, 255, 0.12);
+    background-color: rgba(200,63,41,1);
 }
   
 .cards {
@@ -238,35 +241,38 @@ nav a:hover {
     padding: 1rem;
 }
 
+.card_image {
+    min-height: 300px;
+}
+
 .card {
     background-color: white;
     border-radius: 0.25rem;
-    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    box-shadow: 12px 12px 8px 1px rgba(92,209,216, .2);
     display: flex;
     flex-direction: column;
+    background-color: #d74a38;
     overflow: hidden;
+    max-width: 500px;
 }
 
 .card_content {
     padding: 1rem;
-    background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+    background: linear-gradient(to bottom, #822d22 30%, #d74a38);
 }
 
 .card_title {
     color: #ffffff;
     font-size: 1.1rem;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: capitalize;
     margin: 0px;
+    font-family: 'Philosopher', sans-serif;
 }
 
 .card_text {
     color: #ffffff;
     font-size: 0.875rem;
-    line-height: 1.5;
-    margin-bottom: 1.25rem;    
-    font-weight: 400;
+    margin-bottom: 1.25rem;
+    font-family: 'Acme', sans-serif;
 }
   
 
