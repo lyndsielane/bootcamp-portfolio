@@ -311,6 +311,10 @@ nav a:hover {
 .contact a:visited {
     color: var(--humming-bird);
 }
+
+footer {
+    background-color: var(--ming);
+}
   
 
 @media only screen and (max-width: 1000px) {
