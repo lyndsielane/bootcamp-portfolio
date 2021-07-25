@@ -318,7 +318,7 @@ nav a:hover {
 .footer {
     width:100%;
     height:200px;
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
     display: flex;
@@ -328,12 +328,6 @@ nav a:hover {
     font-family: 'Philosopher', sans-serif;
     font-size: 34px;
     text-shadow: 4px 4px var(--persian-red);
-}
-
-@media only screen and (max-width: 3180px) {
-    .footer {
-        font-size: 20px;
-    }
 }
 
 @media only screen and (max-width: 2100px) {
@@ -355,6 +349,18 @@ nav a:hover {
     }
 }
 
+@media only screen and (max-width: 1380px) {
+    .footer {
+        width: 100%;
+        font-size: 20px;
+        height: 100px;
+        position: relative;
+    }
+
+    .content-wrapper {
+        height: 4000px;
+    }
+}
 
 @media only screen and (max-width: 1000px) {
     .logo {
