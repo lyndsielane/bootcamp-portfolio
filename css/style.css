@@ -210,6 +210,11 @@ nav a:hover {
     vertical-align: middle;
 }
 
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .btn {
     color: #2d100c;
     padding: 0.8rem;
@@ -217,10 +222,9 @@ nav a:hover {
     text-transform: uppercase;
     border-radius: 4px;
     font-weight: 400;
-    display: block;
-    width: 100%;
+    width: 40%;
     cursor: pointer;
-    border: 1px solid rgba(100,130,34,1);
+    border: 1px solid rgba(45,16,12,1);
     background:transparent;
 }
   
@@ -241,10 +245,6 @@ nav a:hover {
     padding: 1rem;
 }
 
-.card_image {
-    min-height: 300px;
-}
-
 .card {
     background-color: white;
     border-radius: 0.25rem;
@@ -257,22 +257,23 @@ nav a:hover {
 }
 
 .card_content {
-    padding: 1rem;
-    background: linear-gradient(to bottom, #822d22 30%, #d74a38);
+    padding: 1.2rem;
+    background: linear-gradient(to bottom, #822d22 45%, #d74a38);
 }
 
 .card_title {
     color: #ffffff;
-    font-size: 1.1rem;
+    font-size: 1.7rem;
     margin: 0px;
     font-family: 'Philosopher', sans-serif;
 }
 
 .card_text {
     color: #ffffff;
-    font-size: 0.875rem;
+    font-size: 1rem;
     margin-bottom: 1.25rem;
     font-family: 'Acme', sans-serif;
+    display: flex;
 }
   
 
