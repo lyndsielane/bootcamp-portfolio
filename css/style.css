@@ -41,7 +41,7 @@ nav ul li {
   display: inline-block;
   margin: 0;
   padding: 0.2em 0.7em;
-  background-color: var(--humming-bird);
+  background-color: var(--maroon);
   opacity: 85%;
   border-radius: 45px;
 }
@@ -49,7 +49,7 @@ nav ul li {
 nav a {
   width: 100%;
   height: 100%;
-  color: var(--persian-red);
+  color: var(--cafe);
   text-decoration: none;
   font-family: "Philosopher", sans-serif;
   font-size: 2.35em;
@@ -102,7 +102,7 @@ nav a:hover {
   width: 100%;
   height: 550px;
   background: rgb(50, 50, 50);
-  background: url(..assets/Photos/lightstock_477505_medium_lyndsie_lane.jpg)
+  background: url(../assets/Photos/lightstock_477505_medium_lyndsie_lane.jpg)
     no-repeat fixed;
   background-size: cover;
   overflow: hidden;
@@ -124,9 +124,9 @@ nav a:hover {
 .content-wrapper h1 {
   margin: 0;
   font-size: 40px;
-  color: var(--humming-bird);
+  color: var(--green-grey);
   text-align: center;
-  text-shadow: 2px 2px var(--burnt-umber);
+  text-shadow: 2px 2px var(--copper);
 }
 
 #about {
@@ -140,7 +140,7 @@ nav a:hover {
   border-radius: 50%;
   float: left;
   margin-right: 3em;
-  border: 3px solid var(--boston-blue);
+  border: 3px solid var(--aubergine);
 }
 
 .lead p {
@@ -151,7 +151,7 @@ nav a:hover {
 }
 
 .skillset {
-  background-color: var(--aubergine);
+  background-color: var(--cloudy-blue);
   padding: 5px;
   transform: skewX(-15deg);
 }
@@ -159,7 +159,7 @@ nav a:hover {
 .skills {
   font-family: "Philosopher", sans-serif;
   font-size: 40px;
-  text-decoration: underline solid var(--humming-bird);
+  text-decoration: underline solid var(--cafe);
   letter-spacing: 0.1em;
   text-align: center;
   transform: skewX(15deg);
@@ -168,7 +168,7 @@ nav a:hover {
 .skillicons {
   font-size: 4.5rem;
   list-style: none;
-  color: #868e96;
+  color: var(--teal);
   display: flex;
   justify-content: space-around;
   transform: skewX(15deg);
@@ -187,7 +187,7 @@ nav a:hover {
 
 .main h1 {
   font-size: 40px;
-  color: var(--humming-bird);
+  color: var(--dark-grey);
   text-align: center;
   margin-top: 30px;
 }
@@ -204,7 +204,7 @@ nav a:hover {
 }
 
 .btn {
-  color: #2d100c;
+  color: var(--aubergine);
   padding: 0.8rem;
   font-size: 14px;
   text-transform: uppercase;
@@ -212,13 +212,9 @@ nav a:hover {
   font-weight: 400;
   width: 40%;
   cursor: pointer;
-  border: 1px solid rgba(45, 16, 12, 1);
   background: transparent;
 }
 
-.btn:hover {
-  background-color: rgba(200, 63, 41, 1);
-}
 
 .cards {
   display: flex;
@@ -234,23 +230,20 @@ nav a:hover {
 }
 
 .card {
-  background-color: white;
+  background-color: var(--cloudy-blue);
   border-radius: 0.25rem;
-  box-shadow: 5px 10px 18px rgba(92, 209, 216, 1);
   display: flex;
   flex-direction: column;
-  background-color: #d74a38;
   overflow: hidden;
   max-width: 500px;
 }
 
 .card_content {
   padding: 1.2rem;
-  background: linear-gradient(to bottom, #3d848a, #d74a38);
 }
 
 .card_title {
-  color: var(--humming-bird);
+  color: var(--teal);
   font-size: 1.7rem;
   margin: 0px;
   font-family: "Philosopher", sans-serif;
@@ -275,7 +268,7 @@ nav a:hover {
   transform: skewX(-15deg);
   font-family: Philosopher;
   font-size: 35px;
-  text-decoration: underline var(--humming-bird);
+  text-decoration: underline var(--copper);
   text-align: center;
 }
 
@@ -288,15 +281,15 @@ nav a:hover {
 }
 
 .contact a {
-  color: var(--humming-bird);
+  color: var(--dark-grey);
 }
 
 .contact a:focus {
-  color: var(--humming-bird);
+  color: var(--cafe);
 }
 
 .contact a:visited {
-  color: var(--humming-bird);
+  color: var(--maroon);
 }
 
 .footer {
@@ -308,11 +301,10 @@ nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--ming);
+  background-color: var(--aubergine);
   font-family: "Philosopher", sans-serif;
   font-size: 34px;
-  text-shadow: 4px 4px var(--persian-red);
-}
+  text-shadow: 4px 4px var(--cafe);
 
 @media only screen and (max-width: 2100px) {
   .logo {
@@ -328,7 +320,7 @@ nav a:hover {
   }
 
   .hero {
-    background: url(../assets/Photos/bigstock--140791445.jpg) no-repeat fixed;
+    background: url(../assets/Photos/lightstock_477505_medium_lyndsie_lane) no-repeat fixed;
     overflow: hidden;
   }
 }
@@ -374,7 +366,7 @@ nav a:hover {
   }
 
   .hero {
-    background: url(../assets/Photos/bigstock--140791445.jpg) no-repeat fixed;
+    background: url(../assets/Photos/lightstock_477505_medium_lyndsie_lane) no-repeat fixed;
     overflow: hidden;
   }
 
@@ -434,7 +426,7 @@ nav a:hover {
   }
 
   .hero {
-    background: url(../assets/Photos/bigstock--140791445.jpg) no-repeat fixed;
+    background: url(../assets/Photos/lightstock_477505_medium_lyndsie_lane.jpg) no-repeat fixed;
     overflow: hidden;
   }
 
