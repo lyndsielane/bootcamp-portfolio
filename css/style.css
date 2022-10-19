@@ -96,14 +96,13 @@ nav a:hover {
   opacity: 1;
 }
 
-.hero {
-  position: relative;
-  width: 100%;
+.hero-image {
   height: 550px;
-  background: rgb(50, 50, 50);
-  background: url(../assets/Photos/lightstock_477505_medium_lyndsie_lane.jpg)
-    no-repeat fixed;
-  background-size: contain;
+  background-color: rgb(50, 50, 50);
+  background-image: url("lightstock_477505_medium_lyndsie_lane.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   overflow: hidden;
 }
 
