@@ -1,20 +1,19 @@
 body {
   margin: 0;
   padding: 0;
-  background: var(--outer-space);
-  color: var(--humming-bird);
+  background: var(--dark-grey);
+  color: var(--maroon);
   font-family: "Montserrat", sans-serif;
   font-family: "Philosopher", sans-serif;
-  --persian-red: #c83f29;
-  --outer-space: #293f42;
-  --viking: #5cd1d8;
-  --burnt-umber: #822d22;
-  --meng: #3d848a;
-  --boston-blue: #3e9fa9;
-  --humming-bird: #bef6f6;
-  --aubergine: #430d09;
-  --ming: #336b74;
-  --keppel: #3eaca4;
+  --cloudy-blue: #cbd0c9;
+  --cafe: #362a1e;
+  --green-grey: #7b7c6d;
+  --grey: #929996;
+  --copper: #b38d3e;
+  --dark-grey: #5e5d59;
+  --maroon: #7c3532;
+  --aubergine: #613835;
+  --teal: #94aca7;
 }
 
 nav {
@@ -59,7 +58,7 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--aubergine);
+  color: var(--maroon);
 }
 
 .hamburger {
@@ -84,7 +83,7 @@ nav a:hover {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: var(--ming);
+  background: none;
   transition: 0.45s ease-in-out;
 }
 
@@ -103,24 +102,10 @@ nav a:hover {
   width: 100%;
   height: 550px;
   background: rgb(50, 50, 50);
-  background: url(../assets/Photos/bigstock--140791445RS2.jpg) no-repeat fixed;
+  background: url(..assets/Photos/lightstock_477505_medium_lyndsie_lane.jpg)
+    no-repeat fixed;
   background-size: cover;
   overflow: hidden;
-}
-
-.hero h1 {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  padding: 0.3em;
-  font-weight: lighter;
-  text-align: center;
-  font-family: "Philosopher", sans-serif;
-  font-size: 60px;
-  letter-spacing: 1px;
-  text-shadow: 4px 3px var(--burnt-umber);
-  color: var(--humming-bird);
 }
 
 .logo {
