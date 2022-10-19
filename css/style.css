@@ -31,7 +31,7 @@ nav {
 nav ul {
   list-style: none;
   margin: 0;
-  padding: 0.3em 3em;
+  padding: 3em 3em;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
@@ -40,7 +40,6 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin: 0;
-  padding: 0.2em 0.7em;
   background-color: var(--maroon);
   opacity: 85%;
   border-radius: 45px;
@@ -104,7 +103,7 @@ nav a:hover {
   background: rgb(50, 50, 50);
   background: url(../assets/Photos/lightstock_477505_medium_lyndsie_lane.jpg)
     no-repeat fixed;
-  background-size: cover;
+  background-size: contain;
   overflow: hidden;
 }
 
